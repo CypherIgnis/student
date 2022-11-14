@@ -2,6 +2,7 @@
 class Student():
     #atributos#
     id=
+    rut=
     name=
     middle_name:
     surname:
@@ -9,10 +10,11 @@ class Student():
 
     def __init__(self,,):
         print("Comenzando programa")
-        self.id
-        self.name=
-        self.middle_name:
-        self.surname:
+        self.id=id
+        self.rut=rut
+        self.name=name
+        self.middle_name:middle_name
+        self.surname:surname
 
     def printt(self):
         print(self.,"/",self.)
