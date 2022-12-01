@@ -10,29 +10,42 @@ class Student():
 
     def __init__(self,,):
         print("Comenzando programa")
-        self.id=id
-        self.rut=rut
-        self.name=name
-        self.middle_name:middle_name
-        self.surname:surname
+        self.__id=id
+        self.__rut=rut
+        self.__name=name
+        self.__middle_name:middle_name
+        self.__surname:surname
 
     def printt(self):
         print(self.,"/",self.)
 
+    def get__id(self):
+        return self.__id
+    
+    def set__id(self,value):
+        self.__id = value
 
-
-o=Fraction(3,4)
-print(o.numerator)
-print(o.denominator)
-a=Fraction(3,2)
-b=Fraction(6,5)
-a.printt()
-b.printt()
-p=b.plus(2)
-print(p)
-m=a.minus(2)
-print(m)
-x=b.multiplication(4)
-print(x)
-d=a.division(3)
-print(d)
+    def set__rut(self,value):
+        self.__rut = value
+        
+    def get__rut(self):
+        return self.__rut
+    
+    def set__name(self,value):
+        self.__name = value
+        
+    def get__name(self):
+        return self.__name
+    
+    def set__middle_name(self,value):
+        self.__middle_name = value
+        
+    def get__middle_name(self):
+        return self.__middle_name
+    
+    def set__surname(self,value):
+        self.__surname = value
+        
+    def get__surname(self):
+        return self.__surname
+    
